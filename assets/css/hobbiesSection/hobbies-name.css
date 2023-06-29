@@ -1,0 +1,6 @@
+.hobbies__name{
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 1rem;
+    color: var(--color-fuente-gris);
+}

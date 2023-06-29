@@ -1,0 +1,19 @@
+.academic__courses__list{    
+    height: 268px;
+    width: 304px;
+    background: var(--background-blanco);
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    box-shadow: 0 0 1rem #3266b9;
+    border-radius: 15px;
+}
+
+@media (max-width: 768px){
+    .academic__courses__list{
+       margin-right: 0;
+    }
+}

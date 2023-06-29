@@ -1,0 +1,6 @@
+.about__title{
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    color: var(--color-fuente-gris);
+}

@@ -1,0 +1,21 @@
+.banner__image{
+    background-image: url('/assets/img/banner-cv.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 332px;
+}
+
+@media (max-width: 576px){
+    .banner__image{
+        width: 400px;
+        height: 221px;
+    }
+}
+
+@media (max-width: 479px){
+    .banner__image{
+        width: 310px;
+        height: 172px;
+    }
+}

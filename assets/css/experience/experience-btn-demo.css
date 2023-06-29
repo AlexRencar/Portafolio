@@ -1,0 +1,20 @@
+.experience__btn__demo{
+    color: var(--main-color);
+    background-color: var(--background-blanco);
+    margin-right: 1rem;    
+}
+
+.experience__btn__demo:hover{
+    color: white;
+    background-color: var(--main-color);
+    margin-right: 1rem;
+    transform: scale(1.2);
+    border: 3px solid var(--main-color);
+}
+
+@media (max-width: 576px){
+    .experience__btn__demo{     
+        font-size: 12px;
+        padding: .6rem;
+    }
+}

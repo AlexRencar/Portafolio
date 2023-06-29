@@ -1,0 +1,11 @@
+.academic__courses{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 992px){
+    .academic__courses{
+        flex-direction: column;
+    }
+}

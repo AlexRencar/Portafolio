@@ -1,0 +1,16 @@
+.menu__title{
+    font-weight: 700;
+    font-size: large;
+    color: var(--color-fuente-gris);
+}
+@media (max-width: 992px) {
+    .menu__title{
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .menu__title{
+        display: block;
+    }
+}

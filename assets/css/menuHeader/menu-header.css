@@ -1,0 +1,12 @@
+.menu__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu-icon{
+    font-size: 2rem;
+    color: var(--main-color);
+    display: none;
+    letter-spacing: 0.1rem;
+}

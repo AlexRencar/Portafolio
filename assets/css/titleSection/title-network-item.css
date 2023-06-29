@@ -1,0 +1,25 @@
+.title__network__item{
+    margin-right: 2rem;
+    font-size: medium;
+    color: var(--color-fuente-gris);
+}
+
+.title__network__item img{
+    margin-left: .2rem;
+}
+
+.title__network__item:hover{
+    font-weight: 900;
+}
+
+.title__network__item img:hover{
+    font-weight: 900;
+}
+
+@media (max-width: 768px){
+    .title__network__item{
+        font-size: 18px;     
+        font-weight: 900;
+        margin: 0 auto 2rem;
+    }
+}

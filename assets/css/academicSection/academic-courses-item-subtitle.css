@@ -1,0 +1,7 @@
+.academic__courses__item__subtitle{
+    font-size: medium;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    color: var(--color-fuente-gris);
+}

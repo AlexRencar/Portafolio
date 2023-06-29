@@ -1,0 +1,7 @@
+.about__paragraph{
+    font-size: large;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    color: var(--color-fuente-gris);
+}

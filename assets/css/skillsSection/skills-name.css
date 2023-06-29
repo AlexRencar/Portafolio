@@ -1,0 +1,13 @@
+.skills__name{
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 1rem;
+    color: var(--color-fuente-gris);
+}
+
+@media (max-width: 576px){
+    .skills__name{
+        font-size: 12px;
+        text-align: center;
+    }
+}

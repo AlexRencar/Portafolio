@@ -1,0 +1,12 @@
+.contact__btn{
+    margin-top: 2rem;
+    background-color: var(--main-color);
+    color: white;
+}
+
+.contact__btn:hover{
+    color: var(--main-color);
+    background-color: var(--background-blanco);
+    transform: scale(1.2);
+    border: 3px solid var(--main-color);
+}

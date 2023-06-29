@@ -1,0 +1,11 @@
+.academic__courses__item__title{
+    font-weight: 700;
+    font-size: large;
+    color: var(--color-fuente-gris);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 90%;
+    line-height: 28px;
+    text-align: center;
+    margin: auto;
+}

@@ -1,0 +1,16 @@
+.experience__content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 100%;
+}
+
+@media (max-width: 992px){
+    .experience__content{
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+}

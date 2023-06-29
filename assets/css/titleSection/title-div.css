@@ -1,0 +1,16 @@
+.title__div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 992px){
+    .title__div{
+        flex-direction: column;
+    }
+
+    .title__container{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}

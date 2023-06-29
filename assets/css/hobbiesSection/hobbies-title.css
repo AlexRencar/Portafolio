@@ -1,0 +1,7 @@
+.hobbies__title{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    color: var(--color-fuente-gris);
+}

@@ -1,0 +1,22 @@
+.title__bio{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    color: var(--color-fuente-gris);
+}
+
+span .multiple-text{
+    color: var(--main-color);
+}
+
+.multiple-text{
+    color: var(--main-color);
+}
+
+@media (max-width: 576px){
+    .title__bio{
+        font-size: 22px;
+        line-height: 32px;
+    }
+}

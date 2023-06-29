@@ -1,0 +1,42 @@
+.experiencie__box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem #4b97ca;
+    overflow: hidden;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 2rem;
+}
+
+.experiencie__box:hover img {
+    transform: scale(1.1);
+}
+
+.experiencie__box:hover .experience__info {
+    transform: translateY(0);
+}
+
+@media (max-width: 992px){
+    .experiencie__box{
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 576px){
+    .experiencie__box{        
+        width: 400px;
+        height: 270px;
+    }
+}
+
+@media (max-width: 400px){
+    .experiencie__box{        
+        width: 294px;
+        height: 190px;
+    }
+}
+

@@ -1,0 +1,40 @@
+.title__profile{
+    width: 368px;
+    height: 368px;
+    border-radius: 100%;
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+/* Animación imagen */
+@keyframes floatImage {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-2rem);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+@media (max-width: 992px){
+  .title__profile{
+    width: 250px;
+    height: 250px;
+    animation: floatImage 5s ease-in-out infinite;
+  }
+
+  @keyframes floatImage {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(1rem);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+}

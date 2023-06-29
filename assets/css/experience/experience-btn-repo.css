@@ -1,0 +1,19 @@
+.experience__btn__repo{
+    color: white;
+    background-color: var(--main-color);
+    margin-right: 1rem;    
+}
+
+.experience__btn__repo:hover{
+    color: var(--main-color);
+    background-color: var(--background-blanco);
+    transform: scale(1.2);
+    border: 3px solid var(--main-color);
+}
+
+@media (max-width: 576px){
+    .experience__btn__repo{     
+        font-size: 12px;
+        padding: .6rem;
+    }
+}

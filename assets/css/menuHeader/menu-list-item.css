@@ -1,0 +1,15 @@
+.menu__list__item{
+    margin-right: 2rem;
+    font-size: medium;
+    color: var(--color-fuente-gris);
+}
+
+.menu__list__item:hover{
+   font-weight: 700;
+}
+
+.menu__list__item.active {
+    color: var(--main-color);
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
