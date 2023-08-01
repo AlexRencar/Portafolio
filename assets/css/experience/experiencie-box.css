@@ -8,7 +8,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-right: 2rem;
+    margin-right: 2rem;    
+    margin-bottom: 2rem;
 }
 
 .experiencie__box:hover img {
@@ -22,7 +23,6 @@
 @media (max-width: 992px){
     .experiencie__box{
         margin-right: 0;
-        margin-bottom: 2rem;
     }
 }
 

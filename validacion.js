@@ -43,7 +43,7 @@ consttyped = new Typed('.multiple-text', {
     strings: ['Desarrollo Front End.', 'Desarrollo WordPress.'],
     typeSpeed: 100,
     backSpeed: 100,
-    backDelay: 1000,
+    backDelay: 100,
     loop: true
   });
 
